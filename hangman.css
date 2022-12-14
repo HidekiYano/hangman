@@ -1,0 +1,79 @@
+h1 {
+    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    margin: 20px;
+}
+
+#selecao-de-tema {
+    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+#selecao-de-tema select {
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+}
+
+#selecao-de-tema button {
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+}
+
+#jogo-da-forca {
+    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#jogo-da-forca span {
+    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 3rem;
+}
+
+#entrada {
+    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#entrada input {
+    text-align: center;
+    width: 10%;
+    margin: 10px;
+    padding: 5px;
+}
+
+#entrada button {
+    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+    padding: 3px;
+    margin: 5px;
+    width: 10%;
+}
+
+#label-tentativas {
+    margin: 15px;
+}
+
+#label-tentativas-anteriores {
+    margin-top: 25px;
+}

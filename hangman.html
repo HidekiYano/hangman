@@ -8,14 +8,16 @@
 </head>
 <body>
     <h1>Jogo da forca</h1>
-    <p>Entre com o tema do jogo:</p>
-    <select name="tema" id="tema-jogo">
-        <option value="selecione">Selecione o tema</option>
-        <option value="animais">Animais</option>
-        <option value="objetos">Objetos</option>
-        <option value="cidades">Cidades</option>
-    </select>
-    <button id="botao-selecionar">Selecionar</button>
+    <h2>Entre com o tema do jogo:</h2>
+    <div id="selecao-de-tema">
+        <select name="tema" id="tema-jogo">
+            <option value="selecione">Selecione o tema</option>
+            <option value="animais">Animais</option>
+            <option value="objetos">Objetos</option>
+            <option value="cidades">Cidades</option>
+        </select>
+        <button id="botao-selecionar">Selecionar</button>
+    </div>
     <div id="jogo-da-forca"></div>
     <div id="entrada"></div>
     <script src="hangman.js"></script>
