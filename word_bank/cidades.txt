@@ -1,0 +1,45 @@
+atlanta
+barcelona
+berlim
+boston
+buenos aires
+cairo
+caracas
+chicago
+cleveland
+curitiba
+denver
+estocolmo
+fortaleza
+houston
+istambul
+las vegas
+lima
+lisboa
+londres
+los angeles
+madri
+manaus
+miami
+moscou
+mumbai
+nova iorque
+orlando
+osaka
+oslo
+paris
+quito
+recife
+rio de janeiro
+roma
+salvador
+santiago
+san diego
+seul
+toronto
+turim
+vancouver
+washington
+wellington
+xangai
+yokohama
