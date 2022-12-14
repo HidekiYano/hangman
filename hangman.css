@@ -1,13 +1,24 @@
+@keyframes fundo {
+    from {background-color: rgb(226, 226, 226);}
+    to {background-color: rgb(141, 141, 141);}
+}
+
+body {
+    background-color: rgb(141, 141, 141);
+    animation-name: fundo;
+    animation-duration: 120s;
+}
+
 h1 {
-    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+    font-family: 'Oswald', monospace;
     display: flex;
     justify-content: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 50px;
 }
 
 h2 {
-    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     display: flex;
     justify-content: center;
     font-size: 1rem;
@@ -15,7 +26,7 @@ h2 {
 }
 
 #selecao-de-tema {
-    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     display: flex;
     justify-content: center;
     margin-top: 25px;
@@ -23,19 +34,21 @@ h2 {
 }
 
 #selecao-de-tema select {
+    font-family: 'Roboto Mono', monospace;
     margin: 5px;
     padding: 5px;
     width: 200px;
 }
 
 #selecao-de-tema button {
+    font-family: 'Roboto Mono', monospace;
     margin: 5px;
     padding: 5px;
     width: 100px;
 }
 
 #jogo-da-forca {
-    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -43,14 +56,14 @@ h2 {
 }
 
 #jogo-da-forca span {
-    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     margin-right: 5px;
     margin-left: 5px;
     font-size: 3rem;
 }
 
 #entrada {
-    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,16 +71,16 @@ h2 {
 
 #entrada input {
     text-align: center;
-    width: 10%;
+    width: 150px;
     margin: 10px;
     padding: 5px;
 }
 
 #entrada button {
-    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     padding: 3px;
     margin: 5px;
-    width: 10%;
+    width: 120px;
 }
 
 #label-tentativas {
